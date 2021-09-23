@@ -38,4 +38,16 @@ fun main(){
             println("IT'S OVER 9000!!!")
         }
     }
+
+    var humidity = "humid"
+    var humidityLevel = 80
+    while(humidity == "humid"){
+        humidityLevel -= 5
+        println("Humidity level decreased to: $humidityLevel")
+
+        if(humidityLevel <= 60){
+            humidity = "Comfy"
+            println("Humidity is now comfy")
+        }
+    }
 }
