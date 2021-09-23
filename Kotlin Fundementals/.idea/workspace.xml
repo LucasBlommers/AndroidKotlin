@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50e51246-4b15-45b2-9df0-b82b66e69f5c" name="Changes" comment="Added BoolCharString.kt which holds the code on the part which was about Booleans characters and strings">
+    <list default="true" id="50e51246-4b15-45b2-9df0-b82b66e69f5c" name="Changes" comment="Added Operators.kt">
+      <change afterPath="$PROJECT_DIR$/src/ComparisonOperators.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Operators.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operators.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +42,16 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Kotlin.OperatorsKt">
+  <component name="RunManager" selected="Kotlin.ComparisonOperatorsKt">
     <configuration name="BoolCharStringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BoolCharStringKt" />
+      <module name="Kotlin Fundementals" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComparisonOperatorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ComparisonOperatorsKt" />
       <module name="Kotlin Fundementals" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -66,6 +73,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ComparisonOperatorsKt" />
         <item itemvalue="Kotlin.OperatorsKt" />
         <item itemvalue="Kotlin.BoolCharStringKt" />
       </list>
@@ -82,7 +90,7 @@
       <workItem from="1632330302441" duration="189000" />
       <workItem from="1632330511675" duration="1613000" />
       <workItem from="1632376339238" duration="51000" />
-      <workItem from="1632382157013" duration="2296000" />
+      <workItem from="1632382157013" duration="2977000" />
     </task>
     <task id="LOCAL-00001" summary="Made first exercise: Variables and datatypes">
       <created>1632330994578</created>
@@ -105,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632383915937</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Operators.kt">
+      <created>1632384549488</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1632384549488</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +142,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Made first exercise: Variables and datatypes" />
     <MESSAGE value="Added BoolCharString.kt which holds the code on the part which was about Booleans characters and strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added BoolCharString.kt which holds the code on the part which was about Booleans characters and strings" />
+    <MESSAGE value="Added Operators.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Operators.kt" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KotlinBasics$KotlinFundamentalsKt.ic" NAME="KotlinFundamentalsKt Coverage Results" MODIFIED="1632331497754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
