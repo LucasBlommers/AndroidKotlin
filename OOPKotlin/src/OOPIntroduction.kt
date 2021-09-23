@@ -40,7 +40,6 @@ fun main(){
     user.printName()
 }
 
-fun addAge(age:Int):Int{
-    val newAge = age + 1
-    return newAge
+fun addAge(age: Int): Int {
+    return age + 1
 }
