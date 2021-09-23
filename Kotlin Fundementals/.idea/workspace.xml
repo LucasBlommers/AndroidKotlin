@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50e51246-4b15-45b2-9df0-b82b66e69f5c" name="Changes" comment="Made first exercise: Variables and datatypes">
-      <change afterPath="$PROJECT_DIR$/src/BoolCharString.kt" afterDir="false" />
+    <list default="true" id="50e51246-4b15-45b2-9df0-b82b66e69f5c" name="Changes" comment="Added BoolCharString.kt which holds the code on the part which was about Booleans characters and strings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KotlinFundamentals.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/KotlinFundamentals.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Operators.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operators.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -42,7 +42,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Kotlin.BoolCharStringKt">
+  <component name="RunManager" selected="Kotlin.OperatorsKt">
     <configuration name="BoolCharStringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BoolCharStringKt" />
       <module name="Kotlin Fundementals" />
@@ -57,8 +57,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OperatorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OperatorsKt" />
+      <module name="Kotlin Fundementals" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.OperatorsKt" />
         <item itemvalue="Kotlin.BoolCharStringKt" />
       </list>
     </recent_temporary>
@@ -74,7 +82,7 @@
       <workItem from="1632330302441" duration="189000" />
       <workItem from="1632330511675" duration="1613000" />
       <workItem from="1632376339238" duration="51000" />
-      <workItem from="1632382157013" duration="1446000" />
+      <workItem from="1632382157013" duration="2296000" />
     </task>
     <task id="LOCAL-00001" summary="Made first exercise: Variables and datatypes">
       <created>1632330994578</created>
@@ -90,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632331507938</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added BoolCharString.kt which holds the code on the part which was about Booleans characters and strings">
+      <created>1632383915936</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1632383915937</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +126,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Made first exercise: Variables and datatypes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made first exercise: Variables and datatypes" />
+    <MESSAGE value="Added BoolCharString.kt which holds the code on the part which was about Booleans characters and strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added BoolCharString.kt which holds the code on the part which was about Booleans characters and strings" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KotlinBasics$KotlinFundamentalsKt.ic" NAME="KotlinFundamentalsKt Coverage Results" MODIFIED="1632331497754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
