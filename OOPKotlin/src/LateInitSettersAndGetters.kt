@@ -1,12 +1,12 @@
 
 fun main(){
-    var myCar = Car()
+    var myCar = Carr()
     myCar.maxSpeed = 200
     println("Max speed is: ${myCar.maxSpeed}")
     println("Model is ${myCar.myModel}")
 }
 
-class Car(){
+open class Carr(){
     lateinit var owner:String
     val myBrand:String = "BMW"
     get(){
