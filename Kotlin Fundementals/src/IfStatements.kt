@@ -25,4 +25,17 @@ fun main(){
     }else{
         println("You're to young")
     }
+
+    var name = "Dennis"
+
+    if (name == "Dennis"){
+        println("Welcome home Dennis")
+    }else{
+        println("Who are you")
+    }
+
+    var isRainy = true
+    if(isRainy){
+        println("It's rainy")
+    }
 }
