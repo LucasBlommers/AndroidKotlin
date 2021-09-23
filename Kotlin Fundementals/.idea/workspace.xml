@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50e51246-4b15-45b2-9df0-b82b66e69f5c" name="Changes" comment="Added IfStatements.kt">
+      <change afterPath="$PROJECT_DIR$/src/WhenExpressions.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IfStatements.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/IfStatements.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +42,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Kotlin.IfStatementsKt">
+  <component name="RunManager" selected="Kotlin.WhenExpressionsKt">
     <configuration name="AssignmentOperatorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AssignmentOperatorsKt" />
-      <module name="Kotlin Fundementals" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BoolCharStringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BoolCharStringKt" />
       <module name="Kotlin Fundementals" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,13 +71,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WhenExpressionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WhenExpressionsKt" />
+      <module name="Kotlin Fundementals" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.WhenExpressionsKt" />
         <item itemvalue="Kotlin.IfStatementsKt" />
         <item itemvalue="Kotlin.AssignmentOperatorsKt" />
         <item itemvalue="Kotlin.ComparisonOperatorsKt" />
         <item itemvalue="Kotlin.OperatorsKt" />
-        <item itemvalue="Kotlin.BoolCharStringKt" />
       </list>
     </recent_temporary>
   </component>
@@ -99,7 +99,7 @@
       <workItem from="1632330302441" duration="189000" />
       <workItem from="1632330511675" duration="1613000" />
       <workItem from="1632376339238" duration="51000" />
-      <workItem from="1632382157013" duration="6346000" />
+      <workItem from="1632382157013" duration="7900000" />
     </task>
     <task id="LOCAL-00001" summary="Made first exercise: Variables and datatypes">
       <created>1632330994578</created>
@@ -150,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632388220600</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added IfStatements.kt">
+      <created>1632393986743</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1632393986744</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
