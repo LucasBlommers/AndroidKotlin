@@ -9,7 +9,7 @@ fun main(){
 
 class MobilePhone(osName:String, brand:String, model:String) {
 
-    var battery:Int = 0
+    private var battery:Int = 0
 
     init {
         val randomCharge = Random().nextInt(50)
