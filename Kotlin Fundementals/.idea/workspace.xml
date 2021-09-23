@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50e51246-4b15-45b2-9df0-b82b66e69f5c" name="Changes" comment="Added Functions.kt">
-      <change afterPath="$PROJECT_DIR$/src/Nullables.kt" afterDir="false" />
+    <list default="true" id="50e51246-4b15-45b2-9df0-b82b66e69f5c" name="Changes" comment="Added Nullables.kt">
+      <change afterPath="$PROJECT_DIR$/src/ElvisOperator.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,9 +42,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Kotlin.NullablesKt">
-    <configuration name="DoWhileLoopKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DoWhileLoopKt" />
+  <component name="RunManager" selected="Kotlin.ElvisOperatorKt">
+    <configuration name="ElvisOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ElvisOperatorKt" />
       <module name="Kotlin Fundementals" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,11 +80,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ElvisOperatorKt" />
         <item itemvalue="Kotlin.NullablesKt" />
         <item itemvalue="Kotlin.FunctionsKt" />
         <item itemvalue="Kotlin.KotlinFundamentalsKt" />
         <item itemvalue="Kotlin.ForLoopsKt" />
-        <item itemvalue="Kotlin.DoWhileLoopKt" />
       </list>
     </recent_temporary>
   </component>
@@ -99,7 +99,7 @@
       <workItem from="1632330302441" duration="189000" />
       <workItem from="1632330511675" duration="1613000" />
       <workItem from="1632376339238" duration="51000" />
-      <workItem from="1632382157013" duration="12313000" />
+      <workItem from="1632382157013" duration="13759000" />
     </task>
     <task id="LOCAL-00001" summary="Made first exercise: Variables and datatypes">
       <created>1632330994578</created>
@@ -185,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632400662964</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added Nullables.kt">
+      <created>1632401310686</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1632401310686</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +222,8 @@
     <MESSAGE value="Added WhileLoop.kt" />
     <MESSAGE value="Added ForLoops.kt" />
     <MESSAGE value="Added Functions.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Functions.kt" />
+    <MESSAGE value="Added Nullables.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Nullables.kt" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KotlinBasics$KotlinFundamentalsKt.ic" NAME="KotlinFundamentalsKt Coverage Results" MODIFIED="1632331497754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
