@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50e51246-4b15-45b2-9df0-b82b66e69f5c" name="Changes" comment="Added ForLoops.kt" />
+    <list default="true" id="50e51246-4b15-45b2-9df0-b82b66e69f5c" name="Changes" comment="Added ForLoops.kt">
+      <change beforePath="$PROJECT_DIR$/../AgeInMinutesApp/app/src/main/java/eu/lucasblommers/ageinminutesapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../AgeInMinutesApp/app/src/main/java/eu/lucasblommers/ageinminutesapp/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AgeInMinutesApp/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AgeInMinutesApp/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AgeInMinutesApp/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AgeInMinutesApp/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AgeInMinutesApp/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AgeInMinutesApp/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AgeInMinutesApp/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AgeInMinutesApp/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

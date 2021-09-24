@@ -5,158 +5,131 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/milk">
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <View
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"/>
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/calculate_your"
+            android:textColor="@color/light_blue"
             android:textSize="25dp"
-            android:text="@string/calculate_your"/>
-        <View
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"/>
+            android:textStyle="bold" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <View
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"/>
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/age"
+            android:textColor="@color/white"
+            android:background="@color/red"
+            android:padding="7dp"
             android:textSize="25dp"
-            android:text="@string/age"/>
-        <View
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"/>
+            android:textStyle="bold" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <View
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"/>
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/in_minutes"
+            android:textColor="@color/light_blue"
             android:textSize="25dp"
-            android:text="@string/in_minutes"/>
-        <View
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"/>
+            android:textStyle="bold" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <View
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"/>
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
         <Button
+            android:id="@+id/btn_select_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/white"
             android:textSize="25dp"
             android:text="@string/select_date"/>
-        <View
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"/>
+
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <View
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"/>
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
         <TextView
+            android:id="@+id/tv_selected_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:text="1/12/2019"/>
-        <View
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"/>
+            android:textColor="@color/light_blue"
+            android:textSize="20dp"/>
+
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <View
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"/>
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/red"
             android:textSize="18dp"
             android:text="@string/selected_date"/>
-        <View
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"/>
+
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <View
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"/>
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
         <TextView
+            android:id="@+id/tv_age_in_minutes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:text="14400"/>
-        <View
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"/>
+            android:textColor="@color/light_blue"
+            android:textSize="20dp"/>
+
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <View
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"/>
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/red"
             android:textSize="18dp"
             android:text="@string/minutes_till_date"/>
-        <View
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"/>
+
     </androidx.appcompat.widget.LinearLayoutCompat>
 
 </androidx.appcompat.widget.LinearLayoutCompat>
