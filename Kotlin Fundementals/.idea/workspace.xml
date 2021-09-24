@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50e51246-4b15-45b2-9df0-b82b66e69f5c" name="Changes" comment="Added ForLoops.kt">
-      <change afterPath="$PROJECT_DIR$/src/Functions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KotlinFundamentals.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/KotlinFundamentals.kt" afterDir="false" />
-    </list>
+    <list default="true" id="50e51246-4b15-45b2-9df0-b82b66e69f5c" name="Changes" comment="Added ForLoops.kt" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
