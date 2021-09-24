@@ -6,7 +6,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.TextView
 import android.widget.Toast
+import java.text.SimpleDateFormat
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
@@ -29,8 +31,20 @@ class MainActivity : AppCompatActivity() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
             DatePickerDialog(this, DatePickerDialog.OnDateSetListener{ view, year, month, dayOfMonth ->
 
+                val selectedDate = "$dayOfMonth/${month+1}/$year"
+                val tvSelectedDate = findViewById<TextView>(R.id.tv_selected_date)
+                tvSelectedDate.text = selectedDate
 
-                Toast.makeText(this, "DatePickerDialog works! $year", Toast.LENGTH_LONG).show()
+                val sdf = SimpleDateFormat("dd/MM/yyyy", Locale.ENGLISH)
+                val theDate = sdf.parse(selectedDate)
+
+                val selectedDateInMinutes = theDate!!.time / 60000
+                val currentDate = sdf.parse(sdf.format(System.currentTimeMillis()))
+                val currentDateToMinutes = currentDate!!.time / 60000
+                val differenceInMinutes = currentDateToMinutes - selectedDateInMinutes
+
+                val tvAgeInMinutes = findViewById<TextView>(R.id.tv_age_in_minutes)
+                tvAgeInMinutes.text = differenceInMinutes.toString()
             }, currentYear, currentMonth, currentDayOfMonth).show()
         }
     }

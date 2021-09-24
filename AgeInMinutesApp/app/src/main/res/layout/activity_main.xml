@@ -128,7 +128,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/red"
             android:textSize="18dp"
-            android:text="@string/minutes_till_date"/>
+            android:text="@string/age_in_minutes"/>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
